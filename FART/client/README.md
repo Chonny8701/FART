@@ -1,7 +1,7 @@
 # Pasos para Configurar y Ejecutar el Cliente con React Vite
 
 ## 1. Navegar a la Ruta Raíz del Proyecto Server
-Asegúrate de estar en la ruta raíz de la carpeta client antes de realizar cualquier acción.
+Asegúrate de estar en la ruta raíz de la carpeta ./FART/client antes de realizar cualquier acción.
 
 ## 2. Instalar librerias necesarias
 
