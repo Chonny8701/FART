@@ -30,30 +30,21 @@ Crea un archivo llamado .env para almacenar las variables de entorno:
 
 Fichero .env
 ### Variables Base de datos
-DB_HOST = 
-
-DB_PORT = 
-
-DB_USER = 
-
-DB_PASSWORD = 
-
+DB_HOST =  
+DB_PORT =  
+DB_USER =  
+DB_PASSWORD =  
 DB_DATABASE = 
 
 ### JWT
 SECRET_KEY = 
 
 ### Variables Stripe
-STRIPE_PUBLISHABLE_LIVE = 
-
-STRIPE_SECRET_KEY_LIVE = 
-
-STRIPE_PUBLISHABLE_TEST = 
-
-STRIPE_SECRET_KEY_TEST = 
-
-STRIPE_WEBHOOK = 
-
+STRIPE_PUBLISHABLE_LIVE =  
+STRIPE_SECRET_KEY_LIVE =  
+STRIPE_PUBLISHABLE_TEST =  
+STRIPE_SECRET_KEY_TEST =  
+STRIPE_WEBHOOK =  
 STRIPE_CLI = 
 
 ## 5. Ejecutar el Proyecto del Servidor
