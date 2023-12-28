@@ -1,0 +1,17 @@
+## Lanzar el Proyecto
+
+### Variante 1: Lanzar por Separado Cliente - Servidor - Base de datos
+Acceder a la carpeta FART
+1. **Cliente (React - Vite):**
+   - Navega a la carpeta `./client` y sigue las instrucciones para lanzar el cliente.
+
+2. **Servidor (Python - Flask):**
+   - Navega a la carpeta `./server`. y sigue las instrucciones para lanzar el servidor Flask.
+
+3. **Base de Datos (MySQL):**
+   - Navega a la carpeta `./database` y sigue las instrucciones para configurar y lanzar la base de datos MySQL.
+
+### Variante 2: Utilizando Docker
+1. **Con Docker Compose:**
+   - Navega a la carpeta `FLASK_DOCKER`.
+   - Sigue las instrucciones en la carpeta para lanzar el proyecto con un solo comando.
