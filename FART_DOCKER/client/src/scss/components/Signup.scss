@@ -1,0 +1,36 @@
+@import '../abstracts/mixins';
+
+.contenedor-signup{
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.signup-encabezado-imagen{
+  height: 50px;
+  
+}
+.signup-encabezado-datos{
+  text-align: end;
+}
+.usuario-form-contacto{
+  gap: 20px;
+}
+
+.signup-formulario{
+  width: 100%;
+}
+.asterisco{
+  color: rgb(139, 0, 0);
+}
+.signUp-linkTo{
+  margin-left: 20px;
+  background-color: transparent;
+  outline: none; /* Sin contorno al hacer clic */
+  color: rgb(0, 0, 255, 0.7);
+  border: none;
+  width: 100px;
+  &:hover{
+    color: rgba(11,94,215,255);
+  }
+}

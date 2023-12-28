@@ -1,0 +1,67 @@
+@import '../abstracts/mixins';
+
+.productos-container-general {
+  @include flexible( flex , column , wrap , center , center );
+  color: $text-color1;
+  gap: 20px
+}
+
+//COLUMNA DE FILTROS
+.contenedor-categorias{
+  @include flexible( flex , column , wrap , center , center );
+}
+.productos-fila-filtros{
+  @include flexible( flex , row , wrap , start , start );
+  width: 100%;
+  padding: 20px
+
+}
+.productos-categorias {
+  @include flexible(flex, column, wrap, center, center);
+  width: 120px;
+  transition: 0.5s;
+
+  &:hover {
+    cursor: pointer; // Cambiar el puntero a una mano al hacer hover
+    color: gray;
+  }
+}
+
+.filtros-selector{
+  margin-bottom: 10px;
+  width: 100%
+}
+
+.contenedor-productos{
+  @include flexible( flex , column , wrap , center , center );
+  gap: 10px
+}
+.productos-visualizar-productos{
+  @include flexible( flex , row , wrap , center , center );
+  gap: 5px ;
+}
+
+//COLUMNA CESTA
+.productos-fila-pasar{
+  @include flexible( flex , row , wrap , center , center );
+  gap: 50px;
+  button{
+    border: none;
+    background-color: transparent;
+    color: white;
+  }
+}
+
+
+/* Cambiar el diseño a una sola columna en pantallas más pequeñas */
+@media (max-width: 992px) {
+  .productos-container-general {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+
+}

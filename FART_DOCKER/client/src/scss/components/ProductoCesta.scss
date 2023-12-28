@@ -1,0 +1,26 @@
+@import '../abstracts/mixins';
+@import '../abstracts/variables';
+
+.cesta-producto-imagen{
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: fill;
+  border-radius: 5px;
+}
+
+.texto-truncado {
+  display: -webkit-box; /* Mostrar como una caja */
+  -webkit-line-clamp: 3; /* Limitar a 3 líneas de texto */
+  -webkit-box-orient: vertical; /* Dirección vertical */
+  overflow: hidden; /* Ocultar el contenido que desborda */
+  width: 100%; /* Establece el ancho máximo del contenedor (ajusta según sea necesario) */
+  white-space: normal; /* Asegurarse de que no se produzcan saltos de línea */
+}
+
+.cesta-producto-card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  height: 100%;
+}

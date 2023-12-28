@@ -1,0 +1,6 @@
+@import '../abstracts/mixins';
+
+.productos-usuario-container-general {
+  @include flexible( flex , column , wrap , center , center );
+  gap: 20px
+}
