@@ -6,17 +6,17 @@ Asegúrate de estar en la ruta ./FART/server antes de realizar cualquier acción
 ## 2. Configurar la Ejecución de Scripts
 En la terminal de comandos ejecuta el siguiente comando para asegurarte de que la ejecución de scripts esté permitida:
 
-```powershell
+```bash
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
 ## 3. Configuración del Entorno Virtual y Librerías
-## 3.1. Ejecutar script el cual realiza todos los pasos automáticamente
+### 3.1. Ejecutar script el cual realiza todos los pasos automáticamente
 
 ```bash
 .\setup.ps1
 ```
-## 3.2 En vez de ejecutar el script puede ejecutar los pasos manualmente
+### 3.2 En vez de ejecutar el script puede ejecutar los pasos manualmente
 Puede realizar la misma operación de forma manual ejecutando los siguientes comandos. Primero crear un entorno virtual, luego activarlo y por último instalar las librerias
 
 ```bash
@@ -26,20 +26,20 @@ pip install -r requirements.txt
 ```
 
 ## 4. Crear el Archivo de Variables de Entorno
-Crea un archivo llamado .env para almacenar las variables de entorno. Rellena los valores para la conexión con la base de datos:
+Crea un archivo llamado .env para almacenar las variables de entorno:
 
 Fichero .env
-# Variables Base de datos
-DB_HOST = 
+### Variables Base de datos
+DB_HOST =
 DB_PORT = 
-DB_USER = 
-DB_PASSWORD = 
+DB_USER =
+DB_PASSWORD =
 DB_DATABASE =
 
-# JWT
+### JWT
 SECRET_KEY = 
 
-# Variables Stripe
+### Variables Stripe
 STRIPE_PUBLISHABLE_LIVE = 
 STRIPE_SECRET_KEY_LIVE = 
 
