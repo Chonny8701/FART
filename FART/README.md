@@ -1,4 +1,13 @@
-## Pasos para Configurar y Ejecutar el Cliente - Servidor - Base de datos
+## Pasos para Lanzar por Separado Cliente - Servidor - Base de datos
 
 ## 1. Navegar a la Ruta Raíz del Proyecto FART
-Asegúrate de estar en la ruta raíz de la carpeta FART_DOCKER antes de realizar cualquier acción.
+Acceder a la carpeta FART
+
+1. **Cliente (React - Vite):**
+   - Navega a la carpeta `./client` y sigue las instrucciones para lanzar el cliente.
+
+2. **Servidor (Python - Flask):**
+   - Navega a la carpeta `./server`. y sigue las instrucciones para lanzar el servidor Flask.
+
+3. **Base de Datos (MySQL):**
+   - Navega a la carpeta `./database` y sigue las instrucciones para configurar y lanzar la base de datos MySQL.
