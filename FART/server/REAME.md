@@ -30,11 +30,11 @@ Crea un archivo llamado .env para almacenar las variables de entorno:
 
 Fichero .env
 ### Variables Base de datos
-DB_HOST =
-DB_PORT = 
-DB_USER =
-DB_PASSWORD =
-DB_DATABASE =
+DB_HOST = "nombre del host"
+DB_PORT = "puerto del host"
+DB_USER = "usuario de la base de datos"
+DB_PASSWORD = "contraseña de la base de datos"
+DB_DATABASE = "nombre de la base de datos"
 
 ### JWT
 SECRET_KEY = 
