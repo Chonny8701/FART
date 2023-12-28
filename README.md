@@ -2,8 +2,6 @@
 
 Fabrica de Arte es una plataforma vibrante y multifacética diseñada para promover eventos artísticos, facilitar la venta de obras de arte y manualidades, ¡y ahora también para que tú, como usuario, puedas ser parte activa de nuestra comunidad creativa!
 
-Para lanzar los proyectos cliente / servidor /database siga las instrucciones de los ficheros README.md dentro de las respectivas carpetas
-
 ## Características Destacadas:
 
 🎨 Eventos Artísticos: Descubre y participa en eventos culturales y artísticos de todo tipo.
