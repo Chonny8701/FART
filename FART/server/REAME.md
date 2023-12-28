@@ -1,7 +1,7 @@
 # Pasos para Configurar y Ejecutar el Servidor con Python Flask
 
 ## 1. Navegar a la Ruta Raíz del Proyecto Server
-Asegúrate de estar en la ruta ../FART/server antes de realizar cualquier acción.
+Asegúrate de estar en la ruta ./FART/server antes de realizar cualquier acción.
 
 ## 2. Configurar la Ejecución de Scripts
 En la terminal de comandos ejecuta el siguiente comando para asegurarte de que la ejecución de scripts esté permitida:
