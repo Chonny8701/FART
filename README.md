@@ -1,4 +1,4 @@
-Proyecto Fábrica de Arte
+# Proyecto Fábrica de Arte
 
 Fabrica de Arte es una plataforma vibrante y multifacética diseñada para promover eventos artísticos, facilitar la venta de obras de arte y manualidades, ¡y ahora también para que tú, como usuario, puedas ser parte activa de nuestra comunidad creativa!
 
