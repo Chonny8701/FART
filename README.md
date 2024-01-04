@@ -33,7 +33,7 @@ Acceder a la carpeta FART
 
 ### Variante 2: Utilizando Docker
 1. **Con Docker Compose:**
-   - Navega a la carpeta `FLASK_DOCKER`.
+   - Navega a la carpeta `FART_DOCKER`.
    - Sigue las instrucciones en la carpeta para lanzar el proyecto con un solo comando.
 
 Asegúrate de revisar regularmente las actualizaciones y mejoras del proyecto.
