@@ -1,0 +1,34 @@
+@import '../abstracts/variables';
+
+.header-navbar{
+  background-color: #ffffff80;
+  margin-bottom: 20px;
+}
+
+#header-logo{
+  height: 25px;
+}
+
+.header-cart-icon {
+  margin-left: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #008000;
+  color: #ffffff;
+  padding: 5px;
+  transition: background-color 0.3s; /* Agregamos una transición suave */
+
+  /* Cambios cuando se pasa el mouse sobre el elemento */
+  &:hover {
+    cursor: pointer; /* Cambia el cursor a una mano */
+    background-color: #00BB00; /* Cambia el color de fondo a verde más claro */
+  }
+}
+
+/* Cambiar el diseño a una sola columna en pantallas más pequeñas lg*/
+@media (max-width: 992px) {
+  .header-cart-icon{
+    margin-left:0px;
+  }
+}

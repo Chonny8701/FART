@@ -1,0 +1,16 @@
+@import '../abstracts/mixins';
+
+.evento-imagen{
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: fill
+}
+
+.evento-card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  height: 100%;
+}
+

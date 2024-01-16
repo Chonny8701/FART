@@ -1,0 +1,25 @@
+@import '../abstracts/mixins';
+@import '../abstracts/variables';
+
+.contenedor-general{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("./images/background.webp");
+  background-color: white;
+  background-size: cover;
+  width: '100%';
+  height: '100%';
+  position: 'fixed'; // Fija el fondo en su lugar
+  top: 0;
+  left: 0;
+  z-index: -1; // Asegura que el contenido se muestre en capas superiores
+  color: $text-color1;
+}
+
+.wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}

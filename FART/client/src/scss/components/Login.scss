@@ -1,0 +1,43 @@
+@import '../abstracts/mixins';
+
+.contenedor-login{
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+// .login-encabezado{
+//   width: 100%;
+//   @include flexible( flex , row, wrap , space-between , center );
+// }
+.login-encabezado-imagen{
+  height: 50px;
+}
+.login-encabezado-datos{
+  text-align: end;
+}
+.usuario-form-contacto{
+  gap: 20px;
+}
+
+.login-formulario{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.asterisco{
+  color: rgb(139, 0, 0);
+}
+.login-linkTo{
+  margin-left: 20px;
+  background-color: transparent;
+  outline: none; /* Sin contorno al hacer clic */
+  color: rgb(255, 255, 255, 0.8);
+  border: none;
+  width: 100px;
+  &:hover{
+    color: white;
+  }
+}
