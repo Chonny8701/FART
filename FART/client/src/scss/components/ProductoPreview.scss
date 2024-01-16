@@ -1,0 +1,31 @@
+@import '../abstracts/mixins';
+
+.producto-card-container{
+  width: 16rem;
+  height: 23rem;
+}
+.producto-card-body{
+  @include flexible( flex , column , wrap , center , center );
+  gap: 5px;
+}
+.producto-card-image{
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: fill;
+  padding: 15px;
+}
+.producto-card-descripcion{
+  height: 60px;
+}
+.truncado_1_fila{
+  white-space: nowrap; /* Evita saltos de línea */
+  overflow: hidden;    /* Oculta el contenido que desborda */
+  text-overflow: ellipsis; /* Agrega puntos suspensivos (...) al final del texto truncado */
+  width: 150px; /* Establece un ancho máximo para el contenedor */
+}
+.producto-button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}

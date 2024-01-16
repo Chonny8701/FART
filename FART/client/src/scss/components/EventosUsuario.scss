@@ -1,0 +1,11 @@
+@import '../abstracts/mixins';
+
+.eventos-usuario-container-general {
+  @include flexible( flex , column , wrap , center , center );
+  gap: 20px;
+  width: 100%;
+}
+
+.eventos-visualizar-eventos{
+  gap: 5px;
+}

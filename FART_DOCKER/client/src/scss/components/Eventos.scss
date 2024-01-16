@@ -1,0 +1,14 @@
+@import '../abstracts/mixins';
+@import '../abstracts/variables';
+
+.eventos-usuario-container-general {
+  @include flexible( flex , column , wrap , center , center );
+  gap: 20px;
+  width: 100%;
+  color: $text-color1;
+}
+
+.parrafo-intro{
+  text-align: justify ;
+  padding: 0 30px;
+}

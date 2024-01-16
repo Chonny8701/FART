@@ -1,0 +1,38 @@
+@import '../abstracts/mixins';
+@import '../abstracts/variables';
+
+.contenedor-home{
+  @include flexible( flex , column , wrap , center , center );  
+  gap: 20px;
+  font-size: 18px;
+  color: $text-color1; /* Cambia el color del texto a blanco */
+  border: none;
+}
+
+.transparent-card {
+  background-color: transparent; /* Hace el fondo transparente */
+  font-size: 18px;
+  border: none;
+}
+
+.home-card-body{
+  border: none;
+  border-radius: 25px;
+  height:100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.evento-imagen {
+  border-radius: 10px;
+}
+
+.home-card-text{
+  text-align: justify;
+}
+
+.parrafo-transparente{
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 25px;
+}
+
+

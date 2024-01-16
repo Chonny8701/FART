@@ -1,0 +1,41 @@
+@import '../abstracts/mixins';
+@import '../abstracts/variables';
+
+.cesta-usuario-container-general {
+  @include flexible( flex , column , wrap , center , center );
+  gap: 20px;
+  width: 100%;
+  color: $text-color1;
+}
+
+.columna-izquierda-cesta{
+  @include flexible( flex , column , wrap , start , center );
+  max-width: 320px;
+  border-right: 2px solid #007bff;
+  font-size: 14px;
+  gap: 20px;
+}
+.columna-derecha-cesta{
+  @include flexible( flex , column , wrap , start , center );
+  padding: 30px;
+  width: 100%;
+
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  /* Aplicar a ambas columnas */
+  .ancho-total {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .columna-izquierda-cesta{
+    max-width: 100%;
+    border: none;
+    margin-bottom: 50px;
+  }
+}
